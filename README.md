@@ -1,0 +1,2 @@
+# inspiratica
+Magneto test
