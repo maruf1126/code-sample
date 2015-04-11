@@ -11,3 +11,5 @@ var/log
 var/report
 media/catalog/product/cache
 errors/local.xml
+media/catalog/swatches
+.idea
