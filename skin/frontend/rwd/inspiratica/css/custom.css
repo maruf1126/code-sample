@@ -1,0 +1,42 @@
+.value{
+
+    text-transform: uppercase;
+    background-color: #2a914a;
+    color: #ffffff;
+    padding: 7px;
+    font-size: 12px;
+}
+.value1{
+
+    text-transform: uppercase;
+    background-color: #5d6e7a;
+    color: #ffffff;
+    padding: 7px;
+    font-size: 12px;
+}
+.value2{
+
+    text-transform: uppercase;
+    background-color: #145c8f;
+    color: #ffffff;
+    padding: 7px;
+    font-size: 12px;
+}
+.value3{
+
+    text-transform: uppercase;
+    background-color: #e74c3c;
+    color: #ffffff;
+    padding: 7px;
+    font-size: 12px;
+}
+.product-detail-banner{
+    padding: 10px;
+}
+.product-detail-banner .banner-left{
+  float: left;
+}
+
+.product-detail-banner .banner-right{
+    float: right;
+}
