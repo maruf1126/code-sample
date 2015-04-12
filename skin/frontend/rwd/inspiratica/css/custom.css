@@ -1,10 +1,15 @@
-.value{
+.value {
 
     text-transform: uppercase;
     background-color: #2a914a;
     color: #ffffff;
     padding: 7px;
     font-size: 12px;
+}
+.value:before{
+    content: '\e81d';
+    width:20px;
+    font-family: 'fontello';
 }
 .value1{
 

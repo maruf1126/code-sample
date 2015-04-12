@@ -76,6 +76,10 @@
                 <!-- Add stylesheets with media queries for use by modern browsers -->
                 <action method="addItem"><type>skin_css</type><name>css/styles.css</name><params/><if><![CDATA[<!--[if (gte IE 9) | (IEMobile)]><!-->]]></if></action>
                 <action method="addItem"><type>skin_css</type><name>css/madisonisland.css</name><params/><if><![CDATA[<!--[if (gte IE 9) | (IEMobile)]><!-->]]></if></action>
+
+                <action method="addItem"><type>skin_css</type><name>fontello/css/fontello.css</name><params/><if><![CDATA[<!--[if (gte IE 9) | (IEMobile)]><!-->]]></if></action>
+                <action method="addItem"><type>skin_css</type><name>fontello/css/fontello-codes.css</name><params/><if><![CDATA[<!--[if (gte IE 9) | (IEMobile)]><!-->]]></if></action>
+                <action method="addItem"><type>skin_css</type><name>fontello/css/fontello-embedded.css</name><params/><if><![CDATA[<!--[if (gte IE 9) | (IEMobile)]><!-->]]></if></action>
                 <action method="addItem"><type>skin_css</type><name>css/custom.css</name><params/><if><![CDATA[<!--[if (gte IE 9) | (IEMobile)]><!-->]]></if></action>
 
                 <!-- Sets viewport meta tag using text block -->
