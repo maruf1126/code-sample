@@ -33,22 +33,36 @@
 .product-detail-banner{
     padding: 10px;
 }
+.product-detail-banner .gift-banner-left{
+    float: left;
+    width: 5%;
+    position: absolute;
+   }
 .product-detail-banner .banner-left{
-  float: left;
+    float: left;
+    display: inline-block;
+    position: relative;
+    width: 40%;
 }
 
 .product-detail-banner .banner-right{
     float: right;
+    width: 40%;
+    position: relative;
+    padding-right: 20px;
 }
 
 .header-menu-search{
     background-color: #263544;
+
 }
+
 
 .skip-content-top-manu{
     width: 80%;
     background-color: #263544;
     float: left;
+    color:#ffffff;
 
 }
 .skip-content-search{
@@ -59,4 +73,9 @@
     width: 10%;
     background-color: #263544;
     float: right;
+}
+
+.account-id{
+  padding: 3px;
+    border: 1px solid #000000;
 }
