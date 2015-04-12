@@ -9,7 +9,6 @@ var/package
 var/importexport
 var/log
 var/report
-media/catalog/product/cache
+media
 errors/local.xml
-media/catalog/swatches
 .idea
