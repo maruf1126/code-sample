@@ -40,3 +40,23 @@
 .product-detail-banner .banner-right{
     float: right;
 }
+
+.header-menu-search{
+    background-color: #263544;
+}
+
+.skip-content-top-manu{
+    width: 80%;
+    background-color: #263544;
+    float: left;
+
+}
+.skip-content-search{
+    width: 10%;
+    float: left;
+}
+.header-minicart{
+    width: 10%;
+    background-color: #263544;
+    float: right;
+}
