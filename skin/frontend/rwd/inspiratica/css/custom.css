@@ -389,3 +389,6 @@
 .product-view .add-to-cart .qty-wrapper label[for='qty']{
     text-align: center;
 }
+.footer-container .footer{
+    background: #263544;
+}
