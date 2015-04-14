@@ -43,14 +43,26 @@
 <header id="header" class="page-header">
     <div class="page-header-container">
         <a class="logo" href="<?php echo $this->getUrl('') ?>">
-            <img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="large" />
-            <img src="<?php echo $this->getLogoSrcSmall() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="small" />
+            <img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="large"/>
+            <img src="<?php echo $this->getLogoSrcSmall() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="small"/>
         </a>
 
         <?php // In order for the language switcher to display next to logo on smaller viewports, it will be moved here.
-              // See app.js for details ?>
+        // See app.js for details ?>
         <div class="store-language-container"></div>
+        <!-- Header msg !-->
+        <span class="call-us-image">
 
+         <img src="<?php echo $this->getSkinUrl('images/clip-art-icon-cdn-maple-leaf.gif'); ?>" alt="image alt text" />
+         </span>
+
+        <span class="call-us-today">
+                <?php echo $this->__('Call us today 1-888-123-4567'); ?>
+         </span>
+        </br>
+        <span class="call-us-today-italic">
+                <?php echo $this->__('We are strategin partner of web development'); ?>
+        </span>
         <!-- Skip Links -->
 
         <div class="skip-links">
@@ -67,47 +79,47 @@
 
         </div>
         <div class="account-cart-wrapper">
-          <span class="account-id">
+          <span class="account-mywishlist">
             <a href="#">
                 <span class="icon"></span>
                 <span class="label"><?php echo $this->__('My Wishlist'); ?></span>
             </a>
           </span>
-          <span class="account-id">
+          <span class="account-myaccount">
             <a href="#">
                 <span class="icon"></span>
                 <span class="label"><?php echo $this->__('My Account'); ?></span>
             </a>
           </span>
-            <span class="account-id">
+            <span class="account-login">
             <a href="#">
                 <span class="icon"></span>
                 <span class="label"><?php echo $this->__('Login'); ?></span>
             </a>
             </span>
         </div>
-        <div id ="header-menu" class="header-menu-search">
-        <!-- Navigation -->
+        <div id="header-menu" class="header-menu-search">
+            <!-- Navigation -->
 
-        <div id="header-nav" class="skip-content">
-            <?php echo $this->getChildHtml('topMenu') ?>
-        </div>
-        <!-- Account -->
-        <div id="header-account" class="skip-content">
-            <?php echo $this->getChildHtml('topLinks') ?>
-        </div>
-        <!-- Search -->
+            <div id="header-nav" class="skip-content">
+                <?php echo $this->getChildHtml('topMenu') ?>
 
-        <div id="header-search" class="skip-content">
-            <?php echo $this->getChildHtml('topSearch') ?>
-        </div>
-        <!-- Cart -->
+            </div>
 
-        <div class="header-minicart">
-            <?php echo $this->getChildHtml('minicart_head'); ?>
-        </div>
 
-     </div>
+                <span class="searuch-button-cart">
+                <a href="#">
+                    <?php echo $this->__('cart') ?>
+                </a>
+                </span>
+
+                <span class="searuch-button-menu">
+                <a href="#">
+                    <?php echo $this->__('search') ?>
+                </a>
+                </span>
+
+        </div>
 
 
     </div>
