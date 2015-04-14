@@ -32,21 +32,31 @@ $_product = $this->getProduct(); ?>
     <?php if ($_product->isAvailable()): ?>
         <p class="availability in-stock">
             <span class="label"><?php echo $this->helper('catalog')->__('Availability:') ?></span>
-            <span class="value"><?php echo $this->helper('catalog')->__('In stock') ?></span>
-            <span class="value1"><?php echo $this->helper('catalog')->__('LIMITED LIFETIME') ?></span>
-            <span class="value2"><?php echo $this->helper('catalog')->__('FREE SHIPPING') ?></span>
-            <span class="value3"><?php echo $this->helper('catalog')->__('$CAD') ?></span>
+            <span class="in-stock-value"><?php echo $this->helper('catalog')->__('In stock') ?></span>
+            <span class="in-stock-value1"><?php echo $this->helper('catalog')->__('Limited lifetime') ?></span>
+            <span class="in-stock-value2"><?php echo $this->helper('catalog')->__('Free shipping') ?></span>
+            <span class="in-stock-value3"><?php echo $this->helper('catalog')->__('cad') ?></span>
 
         </p>
     <?php else: ?>
         <p class="availability out-of-stock">
             <span class="label"><?php echo $this->helper('catalog')->__('Availability:') ?></span>
-            <span class="value"><?php echo $this->helper('catalog')->__('Out of stock') ?></span>
-            <span class="value1"><?php echo $this->helper('catalog')->__('LIMITED LIFETIME') ?></span>
-            <span class="value2"><?php echo $this->helper('catalog')->__('FREE SHIPPING') ?></span>
-            <span class="value3"><?php echo $this->helper('catalog')->__('$CAD') ?></span>
+            <span class="out-stock-value"><?php echo $this->helper('catalog')->__('Out of stock') ?></span>
+            <span class="in-stock-value1"><?php echo $this->helper('catalog')->__('Limited lifetime') ?></span>
+            <span class="in-stock-value2"><?php echo $this->helper('catalog')->__('Free shipping') ?></span>
+            <span class="in-stock-value3"><?php echo $this->helper('catalog')->__('cad') ?></span>
 
         </p>
     <?php endif; ?>
-    <span class="value4"><?php echo $this->__("SKU: %s",$_product->getSku()); ?></span>
+    <span class="product-info-detail">
+        <span class="product-info-review">
+             <?php echo $this->__('Review'); ?>
+        </span>
+        <span class="product-info-add-review">
+            <?php echo $this->__('Add Review'); ?>
+        </span>
+        <span class="product-info-sku">
+            <?php echo $this->__('SKU :').$_product->getSku(); ?>
+        </span>
+    </span>
 <?php endif; ?>

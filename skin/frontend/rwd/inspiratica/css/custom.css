@@ -1,4 +1,4 @@
-.value {
+.in-stock-value {
 
     text-transform: uppercase;
     background-color: #2a914a;
@@ -7,46 +7,14 @@
     font-size: 12px;
 }
 
-.value:before {
+.in-stock-value:before {
     content: '\e81d';
     width: 20px;
     font-family: 'fontello';
     padding-right: 3px;
 }
 
-.value1 {
-
-    text-transform: uppercase;
-    background-color: #5d6e7a;
-    color: #ffffff;
-    padding: 7px;
-    font-size: 12px;
-}
-
-.value1:before {
-    content: '\e803';
-    width: 20px;
-    font-family: 'fontello';
-    padding-right: 3px;
-}
-
-.value2 {
-
-    text-transform: uppercase;
-    background-color: #145c8f;
-    color: #ffffff;
-    padding: 7px;
-    font-size: 12px;
-}
-
-.value2:before {
-    content: '\e81f';
-    width: 20px;
-    font-family: 'fontello';
-    padding-right: 3px;
-}
-
-.value3 {
+.out-stock-value {
 
     text-transform: uppercase;
     background-color: #e74c3c;
@@ -55,7 +23,55 @@
     font-size: 12px;
 }
 
-.value3:before {
+.out-stock-value:before {
+    content: '\e81d';
+    width: 20px;
+    font-family: 'fontello';
+    padding-right: 3px;
+}
+
+.in-stock-value1 {
+
+    text-transform: uppercase;
+    background-color: #5d6e7a;
+    color: #ffffff;
+    padding: 7px;
+    font-size: 12px;
+}
+
+.in-stock-value1:before {
+    content: '\e803';
+    width: 20px;
+    font-family: 'fontello';
+    padding-right: 3px;
+}
+
+.in-stock-value2 {
+
+    text-transform: uppercase;
+    background-color: #145c8f;
+    color: #ffffff;
+    padding: 7px;
+    font-size: 12px;
+}
+
+.in-stock-value2:before {
+    content: '\e81f';
+    width: 20px;
+    font-family: 'fontello';
+    padding-right: 3px;
+}
+
+.in-stock-value3 {
+
+    text-transform: uppercase;
+    background-color: #e74c3c;
+    color: #ffffff;
+    padding: 7px;
+    font-size: 12px;
+}
+
+.in-stock-value3:before {
     content: '\e820';
     width: 20px;
     font-family: 'fontello';
@@ -261,4 +277,14 @@
     font-family: 'fontello';
     padding-left: 10px;
     padding-right: 3px;
+}
+
+
+.product-view .product-shop .product-name .h1{
+    color: #263544;
+}
+
+.product-view .product-shop .extra-info, .product-view .product-shop .price-info {
+    width: 100% !important;
+    max-width: 100%;
 }
