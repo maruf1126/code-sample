@@ -243,7 +243,7 @@
 }
 
 .account-mywishlist:before {
-    content: '\e801';
+    content: '\e802';
     width: 20px;
     font-family: 'fontello';
     padding-left: 10px;
@@ -287,4 +287,105 @@
 .product-view .product-shop .extra-info, .product-view .product-shop .price-info {
     width: 100% !important;
     max-width: 100%;
+}
+
+.product-info-detail{
+    padding: 10px 0px 10px;
+    position: relative;
+    top: 25px;
+    border: 1px solid #dedfe1;
+}
+.quick-overview{
+    text-transform: uppercase;
+    padding: 10px 0px 10px;
+    position: relative;
+    top: 30px;
+    color:#000000;
+    font-size: 15px;
+    font-weight:bold;
+}
+.short-description .std{
+    padding: 10px 0px 10px;
+    position: relative;
+    top: 25px;
+}
+
+/* review */
+.product-info-review{
+    padding: 3px;
+    color: #145c8f;
+    padding: 5px;
+
+
+}
+
+.product-info-review:before {
+    content: '\e809';
+    width: 20px;
+    font-family: 'fontello';
+    padding-left: 10px;
+    padding-right: 3px;
+}
+
+.product-info-add-review{
+    padding: 3px;
+    color: #145c8f;
+    padding: 5px;
+
+}
+.product-info-add-review:before {
+    content: '\e81c';
+    width: 20px;
+    font-family: 'fontello';
+    padding-left: 5px;
+    padding-right: 3px;
+}
+
+.product-info-sku{
+    padding: 3px;
+    color: #145c8f;
+    padding: 5px 15px 5px 5px;
+
+
+}
+
+.price-info .price-box .old-price{
+    float: right;
+    position: relative;
+    right: 200px;
+    top: 40px;
+    text-transform: uppercase;
+
+}
+
+
+.price-info .price-box .old-price .price {
+    color: #5d6e7a;
+}
+
+
+.price-info .price-box .special-price .price{
+   color: #e4be4b;
+    font-size: 50px;
+}
+
+.product-view .add-to-cart .add-to-cart-buttons .button{
+    background: #145c8f;
+}
+
+.product-view .add-to-cart .add-to-cart-buttons .button:before{
+    content: '\e801';
+    width: 20px;
+    font-family: 'fontello';
+    padding-right: 15px;
+}
+.product-view .add-to-cart .qty-wrapper label {
+    line-height: 40px;
+    border: 1px solid #c0c0c0;
+    width: 45px;
+    height: 40px;
+    margin-right: 0px;
+}
+.product-view .add-to-cart .qty-wrapper label[for='qty']{
+    text-align: center;
 }
