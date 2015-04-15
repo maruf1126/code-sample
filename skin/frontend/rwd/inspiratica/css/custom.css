@@ -392,3 +392,130 @@
 .footer-container .footer{
     background: #263544;
 }
+
+.footer .footer-menu{
+   position: relative;
+    left: 250px;
+}
+.footer .footer-menu .links{
+ padding: 0px;
+}
+
+.footer .footer-menu .links ul{
+    position: relative;
+
+}
+.footer-logo-image img{
+    position: relative;
+    left: 30px;
+    top: 86px;
+    width: 200px;
+    height: 50px;
+}
+.strategic-partner{
+    position: relative;
+    right: 740px;
+    top: 80px;
+    color: #e4be4b;
+    font-size: 10px;
+    font-style: italic;
+}
+.breadcrumbs{
+    margin: 0px 15px 0 12px;
+}
+.sign-up-footer-block{
+    background: #145c8f;
+    height: 50px;
+    position: relative;
+    top: 1px;
+}
+.sigh-up-footer{
+    text-transform: uppercase;
+    height: 25px;
+    color: #ffffff;
+    position: relative;
+    top: 15px;
+    left: 40px;
+}
+
+.sign-up-footer-email{
+    background: #437da5;
+    color: #ffffff;
+    position: relative;
+    top: 15px;
+    left: 160px;
+    font-style: italic;
+    padding: 10px 30px 10px 30px;
+}
+
+.sign-up-footer-now{
+    background: #e4be4b;
+    color: #ffffff;
+    position: relative;
+    top: 15px;
+    left: 160px;
+    text-transform: uppercase;
+    padding: 10px 30px 10px 30px;
+}
+
+.sign-up-footer-now:after {
+    content: '\e80a';
+    width: 20px;
+    font-family: 'fontello';
+    padding-left: 10px;
+    padding-right: 3px;
+}
+.footer address{
+    border: none;
+    position: relative;
+    background: #1f2b37;
+    left: -250px;
+}
+
+.store-address{
+    position: relative;
+    float: right;
+    top: 45px;
+    right: 180px;
+}
+.store-address:before {
+    content: '\e812';
+    width: 20px;
+    font-family: 'fontello';
+    padding-right: 3px;
+    padding-left: -3px;
+    color: #e4be4b;
+}
+
+.store-phone{
+    position: relative;
+    float: right;
+    top: 100px;
+    right: 65px;
+}
+
+.store-phone:before {
+    content: '\e812';
+    width: 20px;
+    font-family: 'fontello';
+    padding-right: 3px;
+    padding-left: -3px;
+    color: #e4be4b;
+}
+
+.store-email{
+    position: relative;
+    
+    top: 140px;
+    right: -70px;
+}
+
+.store-email:before {
+    content: '\e812';
+    width: 20px;
+    font-family: 'fontello';
+    padding-right: 3px;
+    padding-left: -3px;
+    color: #e4be4b;
+}
+

@@ -42,6 +42,9 @@
                 <block type="cms/block" name="my-account-footer">
                     <action method="setBlockId"><block_id>my-account-footer</block_id></action>
                 </block>
+                <block type="cms/block" name="our-policies">
+                    <action method="setBlockId"><block_id>our-policies</block_id></action>
+                </block>
 
             </reference>
         </default>

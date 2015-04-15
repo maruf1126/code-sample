@@ -25,29 +25,49 @@
  */
 ?>
 <div class="footer-container">
-    <div class="footer">
-        <span class="sigh-up-footer">
+    <div class="sign-up-footer-block">
+     <span class="sigh-up-footer">
             <?php echo $this->__('Sign up and save 10$ off todays purchage'); ?>
+     </span>
+     <span class="sign-up-footer-email">
+            <?php echo $this->__('Enter Your Email Address'); ?>
+     </span>
+     <span class="sign-up-footer-now">
+            <?php echo $this->__('signup now '); ?>
+     </span>
+    </div>
+    <div class="footer">
 
-            </span>
-        <span class="store-address">
-            <?php $email=Mage::getStoreConfig('trans_email/ident_general/email');
-            echo $email;
-            ?>
-         </span>
+        <span class="footer-logo-image">
 
-        <span class="store-address">
-            <?php $storePhone = Mage::getStoreConfig('general/store_information/phone');
-            echo $storePhone;
-            ?>
+         <img src="<?php echo $this->getSkinUrl('images/logo_footer.png'); ?>" alt="image alt text"/>
+         <span class="strategic-partner">
+             <?php echo $this->__('We are your partners in web development'); ?>
          </span>
+        </span>
 
         <span class="store-address">
             <?php echo nl2br(Mage::getStoreConfig('general/store_information/address'));
             ?>
          </span>
+        <span class="store-phone">
+            <?php $storePhone = Mage::getStoreConfig('general/store_information/phone');
+            echo $storePhone;
+            ?>
+         </span>
 
+        <span class="store-email">
+            <?php $email = Mage::getStoreConfig('trans_email/ident_general/email');
+            echo $email;
+            ?>
+         </span>
+
+        <span class="footer-menu">
         <?php echo $this->getChildHtml() ?>
-        <address class="copyright"><?php echo $this->getCopyright() ?></address>
+            <address class="copyright"><?php echo $this->getCopyright() ?></address>
+        </span>
+
+
+
     </div>
 </div>
