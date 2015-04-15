@@ -44,9 +44,25 @@
          <span class="strategic-partner">
              <?php echo $this->__('We are your partners in web development'); ?>
          </span>
+         <span class="strategic-partner-facebook">
+
+         </span>
+            <span class="strategic-partner-twitter">
+
+         </span>
+            <span class="strategic-partner-google">
+
+         </span>
         </span>
 
-        <span class="store-address">
+
+
+        <span class="footer-menu">
+            <?php echo $this->getChildHtml() ?>
+            <address class="copyright"><?php echo $this->getCopyright() ?></address>
+        </span>
+
+         <span class="store-address">
             <?php echo nl2br(Mage::getStoreConfig('general/store_information/address'));
             ?>
          </span>
@@ -61,13 +77,6 @@
             echo $email;
             ?>
          </span>
-
-        <span class="footer-menu">
-        <?php echo $this->getChildHtml() ?>
-            <address class="copyright"><?php echo $this->getCopyright() ?></address>
-        </span>
-
-
 
     </div>
 </div>

@@ -99,6 +99,7 @@
     float: right;
     width: 40%;
     position: relative;
+    right: 105px;
     padding-right: 20px;
 }
 
@@ -405,12 +406,28 @@
     position: relative;
 
 }
+.footer .footer-menu .links ul a{
+   color: #889caa;
+
+}
+
+.footer .footer-menu .links .block-title{
+    border:none;
+}
+
+.footer .footer-menu .links .block-title strong{
+    color: #ffffff;
+}
 .footer-logo-image img{
     position: relative;
     left: 30px;
     top: 86px;
     width: 200px;
     height: 50px;
+}
+
+.footer-container {
+    padding-bottom: 0px;
 }
 .strategic-partner{
     position: relative;
@@ -420,6 +437,47 @@
     font-size: 10px;
     font-style: italic;
 }
+.strategic-partner-facebook:after {
+    content: '\e80f';
+    width: 20px;
+    position: relative;
+    right: 950px;
+    top: 105px;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'fontello';
+    padding-left: 10px;
+    padding-right: 3px;
+    color: #889caa;
+}
+
+.strategic-partner-twitter:after {
+    content: '\e811';
+    width: 20px;
+    position: relative;
+    right: 950px;
+    top: 105px;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'fontello';
+    padding-left: 10px;
+    padding-right: 3px;
+    color: #889caa;
+}
+.strategic-partner-google:after {
+    content: '\e810';
+    width: 20px;
+    position: relative;
+    right: 950px;
+    top: 105px;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'fontello';
+    padding-left: 10px;
+    padding-right: 3px;
+    color: #889caa;
+}
+
 .breadcrumbs{
     margin: 0px 15px 0 12px;
 }
@@ -475,8 +533,9 @@
 .store-address{
     position: relative;
     float: right;
-    top: 45px;
+    top: -200px;
     right: 180px;
+    color: #889caa;
 }
 .store-address:before {
     content: '\e812';
@@ -490,12 +549,13 @@
 .store-phone{
     position: relative;
     float: right;
-    top: 100px;
+    top: -150px;
     right: 65px;
+    color: #889caa;
 }
 
 .store-phone:before {
-    content: '\e812';
+    content: '\e814';
     width: 20px;
     font-family: 'fontello';
     padding-right: 3px;
@@ -505,13 +565,14 @@
 
 .store-email{
     position: relative;
-    
-    top: 140px;
-    right: -70px;
+    float: right;
+    top: -120px;
+    right: -75px;
+    color: #889caa;
 }
 
 .store-email:before {
-    content: '\e812';
+    content: '\e813';
     width: 20px;
     font-family: 'fontello';
     padding-right: 3px;
