@@ -1,0 +1,82 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    design
+ * @package     rwd_default
+ * @copyright   Copyright (c) 2006-2014 X.commerce, Inc. (http://www.magento.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<div class="footer-container">
+    <div class="sign-up-footer-block">
+     <span class="sigh-up-footer">
+            <?php echo $this->__('Sign up and save 10$ off todays purchage'); ?>
+     </span>
+     <span class="sign-up-footer-email">
+            <?php echo $this->__('Enter Your Email Address'); ?>
+     </span>
+     <span class="sign-up-footer-now">
+            <?php echo $this->__('signup now '); ?>
+     </span>
+    </div>
+    <div class="footer">
+
+        <span class="footer-logo-image">
+
+         <img src="<?php echo $this->getSkinUrl('images/logo_footer.png'); ?>" alt="image alt text"/>
+         <span class="strategic-partner">
+             <?php echo $this->__('We are your partners in web development'); ?>
+         </span>
+         <span class="strategic-partner-facebook">
+
+         </span>
+            <span class="strategic-partner-twitter">
+
+         </span>
+            <span class="strategic-partner-google">
+
+         </span>
+        </span>
+
+
+
+        <span class="footer-menu">
+            <?php echo $this->getChildHtml() ?>
+            <address class="copyright"><?php echo $this->getCopyright() ?></address>
+        </span>
+
+         <span class="store-address">
+            <?php echo nl2br(Mage::getStoreConfig('general/store_information/address'));
+            ?>
+         </span>
+        <span class="store-phone">
+            <?php $storePhone = Mage::getStoreConfig('general/store_information/phone');
+            echo $storePhone;
+            ?>
+         </span>
+
+        <span class="store-email">
+            <?php $email = Mage::getStoreConfig('trans_email/ident_general/email');
+            echo $email;
+            ?>
+         </span>
+
+    </div>
+</div>
