@@ -209,7 +209,7 @@
     font-weight: bold;
     font-family: "Myriad Pro";
     font-size: 22px;
- }
+}
 .call-us-today-italic{
     font-style: italic;
     position: relative;
@@ -366,7 +366,7 @@
 
 
 .price-info .price-box .special-price .price{
-   color: #e4be4b;
+    color: #e4be4b;
     font-size: 50px;
 }
 
@@ -394,30 +394,32 @@
     background: #263544;
 }
 
-.footer .footer-menu{
-   position: relative;
-    left: 250px;
-}
-.footer .footer-menu .links{
- padding: 0px;
-}
-
-.footer .footer-menu .links ul{
+.footer .footer-menu ul{
     position: relative;
 
 }
-.footer .footer-menu .links ul a{
-   color: #889caa;
+.footer .footer-menu  ul a{
+    color: #889caa;
+
+}
+.footer .footer-menu  ul a:hover{
+    color: #e4be4b;
 
 }
 
-.footer .footer-menu .links .block-title{
+.footer .footer-menu  .block-title{
     border:none;
 }
 
-.footer .footer-menu .links .block-title strong{
+.footer .footer-menu .block-title strong{
     color: #ffffff;
 }
+.footer .links, .footer .block-subscribe {
+    position: relative;
+    left: 60px;
+    text-transform: none;
+}
+
 .footer-logo-image img{
     position: relative;
     left: 30px;
@@ -431,7 +433,8 @@
 }
 .strategic-partner{
     position: relative;
-    right: 740px;
+    float: left;
+    left: 35px;
     top: 80px;
     color: #e4be4b;
     font-size: 10px;
@@ -527,14 +530,14 @@
     border: none;
     position: relative;
     background: #1f2b37;
-    left: -250px;
+
 }
 
 .store-address{
     position: relative;
     float: right;
-    top: -200px;
-    right: 180px;
+    bottom: 200px;
+    right: 175px;
     color: #889caa;
 }
 .store-address:before {
@@ -549,8 +552,8 @@
 .store-phone{
     position: relative;
     float: right;
-    top: -150px;
-    right: 65px;
+    bottom: 150px;
+    right: 60px;
     color: #889caa;
 }
 
@@ -566,8 +569,8 @@
 .store-email{
     position: relative;
     float: right;
-    top: -120px;
-    right: -75px;
+    bottom: 120px;
+    right: -80px;
     color: #889caa;
 }
 
@@ -579,4 +582,114 @@
     padding-left: -3px;
     color: #e4be4b;
 }
+.footer address.copyright{
+    color: #889caa;
+    position: relative;
+    text-align: left;
+    padding-left: 40px;
+    font-style: italic;
+}
+.footer .footer-menu .copyright-privacy:after {
+    content: '\e818';
+    width: 20px;
+    font-family: 'fontello';
+    font-style: normal;
+    float: right;
+    padding-right: 3px;
+    padding-left: -3px;
+    color: #889caa;
+    position: relative;
+    right: 300px;
+}
 
+.footer .footer-menu .copyright-master:after {
+    content: '\e817';
+    width: 20px;
+    font-family: 'fontello';
+    padding-right: 3px;
+    padding-left: -3px;
+    color: #889caa;
+    font-style: normal;
+    float: right;
+    position: relative;
+    right: 260px;
+}
+
+.footer .footer-menu .copyright-visa:after {
+    content: '\e816';
+    width: 20px;
+    font-family: 'fontello';
+    padding-right: 3px;
+    padding-left: -3px;
+    color: #889caa;
+    font-style: normal;
+    float: right;
+    position: relative;
+    right: 220px;
+}
+.product-view .suitable-for-block{
+    float: right;
+    position: relative;
+    right: 130px;
+    top: -180px;
+    border-top: 1px solid #c6ccd0;
+    border-bottom: 1px solid #c6ccd0;
+    padding: 10px 0px 10px 0px;
+}
+.product-view .suitable-for-block .suitable-for-class-1{
+    font-style: italic;
+}
+.product-view .suitable-for-block .suitable-for-class-2:before{
+    content: '\e81d';
+    width: 20px;
+    font-family: 'fontello';
+    padding-right: 3px;
+    padding-left: -3px;
+    color: #c6ccd0;
+}
+
+.product-view .privacy-guaranteed{
+    float: right;
+    position: relative;
+    left: 180px;
+    top: -130px;
+}
+.product-view .privacy-guaranteed .privacy-guaranteed-icon-1{
+    text-transform: uppercase;
+}
+.product-view .privacy-guaranteed .privacy-guaranteed-icon-1:before{
+    content: '\e804';
+    width: 20px;
+    font-family: 'fontello';
+    padding-right: 3px;
+    padding-left: -3px;
+    color: #c6ccd0;
+}
+
+.product-view .privacy-guaranteed .privacy-guaranteed-icon-2:before{
+    content: '\e816';
+    width: 25px;
+    font-family: 'fontello';
+    font-size: 25px;
+    padding-right: 3px;
+    padding-left: -3px;
+
+}
+.product-view .privacy-guaranteed .privacy-guaranteed-icon-3:before{
+    content: '\e818';
+    width: 25px;
+    font-family: 'fontello';
+    font-size: 25px;
+    padding-right: 3px;
+    padding-left: -3px;
+
+}
+.product-view .privacy-guaranteed .privacy-guaranteed-icon-4:before{
+    content: '\e817';
+    width: 25px;
+    font-family: 'fontello';
+    font-size: 25px;
+    padding-right: 3px;
+    padding-left: -3px;
+
+}
