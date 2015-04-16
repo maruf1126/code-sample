@@ -59,7 +59,13 @@
 
         <span class="footer-menu">
             <?php echo $this->getChildHtml() ?>
-            <address class="copyright"><?php echo $this->getCopyright() ?></address>
+            <address class="copyright">
+                <?php echo $this->getCopyright() ?>
+                <span class="copyright-privacy"> </span>
+                <span class="copyright-master"> </span>
+                <span class="copyright-visa"> </span>
+            </address>
+
         </span>
 
          <span class="store-address">
@@ -79,4 +85,3 @@
          </span>
 
     </div>
-</div>
