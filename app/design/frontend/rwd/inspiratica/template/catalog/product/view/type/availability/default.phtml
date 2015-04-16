@@ -31,22 +31,24 @@ $_product = $this->getProduct(); ?>
 <?php if ($this->displayProductStockStatus()): ?>
     <?php if ($_product->isAvailable()): ?>
         <p class="availability in-stock">
-            <span class="label"><?php echo $this->helper('catalog')->__('Availability:') ?></span>
-            <span class="in-stock-value"><?php echo $this->helper('catalog')->__('In stock') ?></span>
+            <span ><?php echo $this->helper('catalog')->__('In stock') ?></span>
+        </p>
+
             <span class="in-stock-value1"><?php echo $this->helper('catalog')->__('Limited lifetime') ?></span>
             <span class="in-stock-value2"><?php echo $this->helper('catalog')->__('Free shipping') ?></span>
             <span class="in-stock-value3"><?php echo $this->helper('catalog')->__('cad') ?></span>
 
-        </p>
+
     <?php else: ?>
         <p class="availability out-of-stock">
-            <span class="label"><?php echo $this->helper('catalog')->__('Availability:') ?></span>
-            <span class="out-stock-value"><?php echo $this->helper('catalog')->__('Out of stock') ?></span>
+            <span class="label"><?php echo $this->helper('catalog')->__('Out of stock') ?></span>
+        </p>
+
             <span class="in-stock-value1"><?php echo $this->helper('catalog')->__('Limited lifetime') ?></span>
             <span class="in-stock-value2"><?php echo $this->helper('catalog')->__('Free shipping') ?></span>
             <span class="in-stock-value3"><?php echo $this->helper('catalog')->__('cad') ?></span>
 
-        </p>
+
     <?php endif; ?>
     <span class="product-info-detail">
         <span class="product-info-review">
