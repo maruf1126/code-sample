@@ -394,28 +394,48 @@
     background: #263544;
 }
 
-.footer .footer-menu{
+.footer .footer-menu .footer-menu-block{
    position: relative;
     left: 250px;
 }
-.footer .footer-menu .links{
+.footer .footer-menu .footer-menu-block{
  padding: 0px;
 }
+.footer .footer-menu  .footer-policy{
+    position: relative;
+    top: -115px;
+    left: 150px;
+}
+.footer .footer-menu .footer-my-account{
+    position: relative;
+    top: -232px;
+    left: 350px;
+}
+.footer .footer-menu .footer-contact-us{
+    position: relative;
+    top: -348px;
+    left: 570px;
+}
+.footer .footer-menu .footer-about-us{
+    position: relative;
+    top: -348px;
+    left: 570px;
+}
 
-.footer .footer-menu .links ul{
+.footer .footer-menu .footer-menu-block ul{
     position: relative;
 
 }
-.footer .footer-menu .links ul a{
+.footer .footer-menu .footer-menu-block ul a{
    color: #889caa;
 
 }
 
-.footer .footer-menu .links .block-title{
+.footer .footer-menu .footer-menu-block .block-title{
     border:none;
 }
 
-.footer .footer-menu .links .block-title strong{
+.footer .footer-menu .footer-menu-block .block-title strong{
     color: #ffffff;
 }
 .footer-logo-image img{
@@ -431,7 +451,7 @@
 }
 .strategic-partner{
     position: relative;
-    right: 740px;
+    left: 35px;
     top: 80px;
     color: #e4be4b;
     font-size: 10px;
@@ -527,14 +547,14 @@
     border: none;
     position: relative;
     background: #1f2b37;
-    left: -250px;
+
 }
 
 .store-address{
     position: relative;
     float: right;
-    top: -200px;
-    right: 180px;
+    bottom: 450px;
+    right: 200px;
     color: #889caa;
 }
 .store-address:before {
@@ -549,8 +569,8 @@
 .store-phone{
     position: relative;
     float: right;
-    top: -150px;
-    right: 65px;
+    bottom: 350px;
+    right: 80px;
     color: #889caa;
 }
 
@@ -566,8 +586,8 @@
 .store-email{
     position: relative;
     float: right;
-    top: -120px;
-    right: -75px;
+    bottom: 390px;
+    right: -60px;
     color: #889caa;
 }
 
