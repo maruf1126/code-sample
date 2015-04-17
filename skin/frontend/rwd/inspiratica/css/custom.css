@@ -785,3 +785,10 @@
 .my-span-class{
     color: #e4be4b;
 }
+.product-view .block .block-content {
+    margin-top: 0px;
+    display: none;
+}
+.product-view .block .block-title{
+    display: none;
+}
