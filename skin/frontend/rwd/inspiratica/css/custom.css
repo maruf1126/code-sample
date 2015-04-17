@@ -414,7 +414,15 @@
 
 }
 .footer .footer-menu  ul a{
+<<<<<<< HEAD
     color: #889caa;
+
+}
+.footer .footer-menu  ul a:hover{
+    color: #e4be4b;
+=======
+   color: #889caa;
+>>>>>>> 1988b1f0025cdfb57b1c83bbf351eb1f935990c3
 
 }
 .footer .footer-menu  ul a:hover{
@@ -617,6 +625,7 @@
     right: 300px;
 }
 
+
 .footer .footer-menu .copyright-master:after {
     content: '\e817';
     width: 20px;
@@ -743,4 +752,31 @@
 .lecruset{
     float: right;
     position: relative;
+
+
+.footer .footer-menu .copyright-master:after {
+    content: '\e817';
+    width: 20px;
+    font-family: 'fontello';
+    padding-right: 3px;
+    padding-left: -3px;
+    color: #889caa;
+    font-style: normal;
+    float: right;
+    position: relative;
+    right: 260px;
+}
+
+.footer .footer-menu .copyright-visa:after {
+    content: '\e816';
+    width: 20px;
+    font-family: 'fontello';
+    padding-right: 3px;
+    padding-left: -3px;
+    color: #889caa;
+    font-style: normal;
+    float: right;
+    position: relative;
+    right: 220px;
+
 }
