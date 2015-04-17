@@ -151,19 +151,18 @@
 }
 
 .searuch-button-menu{
-    width: 8%;
+    width: 9%;
     height: 30px;
     float: right;
     position: relative;
     top: -30px;
     background: #145c8f;
-}
-.searuch-button-menu a{
-    position: relative;
-    top: 13px;
-    text-transform: uppercase;
+    border: none;
     color: #ffffff;
-    font-size: 9px;
+    padding-top: 9px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    font-size: 10px;
 }
 
 .searuch-button-menu:before {
@@ -175,22 +174,21 @@
     color: #ffffff;
     position: relative;
     left: 30px;
+    bottom: 12px;
 }
 .searuch-button-cart{
-    width: 8%;
+    width: 9%;
     height: 30px;
     float: right;
     position: relative;
     top: -30px;
     background: #e4be4b;
-}
-.searuch-button-cart a{
-    position: relative;
-    top: 13px;
-    text-transform: uppercase;
+    border: none;
     color: #ffffff;
-    font-size: 9px;
-    left: 7px;
+    padding-top: 9px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    font-size: 10px;
 }
 
 .searuch-button-cart:before {
@@ -201,7 +199,8 @@
     padding-right: 3px;
     color: #ffffff;
     position: relative;
-    left: 30px;
+    left: 23px;
+    bottom: 12px;
 }
 
 .skip-content-search {
@@ -546,11 +545,11 @@
     background: #e4be4b;
     color: #ffffff;
     position: relative;
-    top: 11px;
-    left: 156px;
+    top: 16px;
+    left: 155px;
     height: 30px;
     text-transform: uppercase;
-    padding: 0px 30px 10px 30px;
+    padding: 5px 30px 10px 30px;
     border: none;
 }
 
