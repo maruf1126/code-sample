@@ -141,6 +141,7 @@
     border-bottom: none;
     padding-left: 25px;
     color: #ffffff;
+    text-transform: uppercase;
 }
 
 
@@ -395,6 +396,14 @@
     font-family: 'fontello';
     padding-right: 15px;
 }
+
+.product-view .add-to-cart .add-to-cart-buttons .button:after{
+    content: '\e802';
+    font-family: 'fontello';
+    padding-left: 15px;
+    position: relative;
+    left: 10px;
+}
 .product-view .add-to-cart .qty-wrapper label {
     line-height: 40px;
     border: 1px solid #c0c0c0;
@@ -414,7 +423,7 @@
 
 }
 .footer .footer-menu  ul a{
-<<<<<<< HEAD
+
     color: #889caa;
 
 }
@@ -446,7 +455,7 @@
 .footer-logo-image img{
     position: relative;
     left: 30px;
-    top: 86px;
+    top: 40px;
     width: 200px;
     height: 50px;
 }
@@ -458,7 +467,7 @@
     position: relative;
     float: left;
     left: 35px;
-    top: 80px;
+    top: 40px;
     color: #e4be4b;
     font-size: 10px;
     font-style: italic;
@@ -509,7 +518,7 @@
 }
 .sign-up-footer-block{
     background: #145c8f;
-    height: 50px;
+    height: 60px;
     position: relative;
     top: 1px;
 }
@@ -522,7 +531,7 @@
     left: 40px;
 }
 
-.sign-up-footer-email{
+.sign-up-footer-email .footer-email{
     background: #437da5;
     color: #ffffff;
     position: relative;
@@ -530,16 +539,19 @@
     left: 160px;
     font-style: italic;
     padding: 10px 30px 10px 30px;
+    border: none;
 }
 
 .sign-up-footer-now{
     background: #e4be4b;
     color: #ffffff;
     position: relative;
-    top: 15px;
-    left: 160px;
+    top: 11px;
+    left: 156px;
+    height: 30px;
     text-transform: uppercase;
-    padding: 10px 30px 10px 30px;
+    padding: 0px 30px 10px 30px;
+    border: none;
 }
 
 .sign-up-footer-now:after {
@@ -560,8 +572,9 @@
     position: relative;
     float: right;
     bottom: 200px;
-    right: 175px;
+    right: 190px;
     color: #889caa;
+    font-size: 12px;
 }
 .store-address:before {
     content: '\e812';
@@ -575,9 +588,10 @@
 .store-phone{
     position: relative;
     float: right;
-    bottom: 150px;
-    right: 60px;
+    bottom: 160px;
+    right: 90px;
     color: #889caa;
+    font-size: 12px;
 }
 
 .store-phone:before {
@@ -592,9 +606,10 @@
 .store-email{
     position: relative;
     float: right;
-    bottom: 120px;
-    right: -80px;
+    bottom: 140px;
+    right: -30px;
     color: #889caa;
+    font-size: 12px;
 }
 
 .store-email:before {
@@ -749,10 +764,10 @@
     font-family: 'fontello';
     padding-right: 3px;
 }
-.lecruset{
+.lecruset {
     float: right;
     position: relative;
-
+}
 
 .footer .footer-menu .copyright-master:after {
     content: '\e817';
