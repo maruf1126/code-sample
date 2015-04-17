@@ -79,10 +79,9 @@
                             class="std"><?php echo $_helper->productAttribute($_product, nl2br($_product->getShortDescription()), 'short_description') ?></div>
                     </div>
                 <?php endif; ?>
-
-
-
-
+                <span class="lecruset">
+                    <img src="<?php echo $this->getSkinUrl('images/lecrusetl.gif'); ?>" alt="image alt text"/>
+                </span>
                 <?php echo $this->getChildHtml('other'); ?>
 
                 <?php if ($_product->isSaleable() && $this->hasOptions()): ?>

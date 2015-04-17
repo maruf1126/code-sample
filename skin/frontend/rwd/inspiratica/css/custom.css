@@ -646,7 +646,7 @@
     float: right;
     position: relative;
     right: 130px;
-    top: -120px;
+    top: -80px;
     border-top: 1px solid #c6ccd0;
     border-bottom: 1px solid #c6ccd0;
     padding: 10px 0px 10px 0px;
@@ -667,7 +667,7 @@
     float: right;
     position: relative;
     left: 180px;
-    top: -60px;
+    top: -40px;
 }
 .product-view .privacy-guaranteed .privacy-guaranteed-icon-1{
     text-transform: uppercase;
@@ -739,4 +739,8 @@
     width: 20px;
     font-family: 'fontello';
     padding-right: 3px;
+}
+.lecruset{
+    float: right;
+    position: relative;
 }
