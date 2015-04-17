@@ -1,5 +1,4 @@
 .in-stock-value {
-
     text-transform: uppercase;
     background-color: #2a914a;
     color: #ffffff;
@@ -8,10 +7,7 @@
     font-size: 12px;
 }
 
-
-
 .out-stock-value {
-
     text-transform: uppercase;
     background-color: #e74c3c;
     color: #ffffff;
@@ -151,19 +147,18 @@
 }
 
 .searuch-button-menu{
-    width: 8%;
+    width: 9%;
     height: 30px;
     float: right;
     position: relative;
     top: -30px;
     background: #145c8f;
-}
-.searuch-button-menu a{
-    position: relative;
-    top: 13px;
-    text-transform: uppercase;
+    border: none;
     color: #ffffff;
-    font-size: 9px;
+    padding-top: 9px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    font-size: 10px;
 }
 
 .searuch-button-menu:before {
@@ -175,22 +170,21 @@
     color: #ffffff;
     position: relative;
     left: 30px;
+    bottom: 12px;
 }
 .searuch-button-cart{
-    width: 8%;
+    width: 9%;
     height: 30px;
     float: right;
     position: relative;
     top: -30px;
     background: #e4be4b;
-}
-.searuch-button-cart a{
-    position: relative;
-    top: 13px;
-    text-transform: uppercase;
+    border: none;
     color: #ffffff;
-    font-size: 9px;
-    left: 7px;
+    padding-top: 9px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    font-size: 10px;
 }
 
 .searuch-button-cart:before {
@@ -201,7 +195,8 @@
     padding-right: 3px;
     color: #ffffff;
     position: relative;
-    left: 30px;
+    left: 23px;
+    bottom: 12px;
 }
 
 .skip-content-search {
@@ -216,6 +211,7 @@
     font-family: "Myriad Pro";
     font-size: 22px;
 }
+
 .call-us-today-italic{
     font-style: italic;
     position: relative;
@@ -224,8 +220,8 @@
     font-family: "Myriad Pro";
     font-size: 16px;
 }
-.call-us-image img{
 
+.call-us-image img{
     width: 50px;
     height: 50px;
     position: relative;
@@ -234,6 +230,7 @@
     right: 20px;
 
 }
+
 .page-header-container .logo{
     padding-top: 0px;
 }
@@ -289,6 +286,7 @@
 
 .product-view .product-shop .product-name .h1{
     color: #263544;
+    text-transform: capitalize;
 }
 
 .product-view .product-shop .extra-info, .product-view .product-shop .price-info {
@@ -318,7 +316,6 @@
     top: 25px;
 }
 
-/* review */
 .product-info-review{
     padding: 3px;
     color: #145c8f;
@@ -353,8 +350,7 @@
     padding: 3px;
     color: #145c8f;
     padding: 5px 15px 5px 5px;
-
-
+    text-transform: uppercase;
 }
 
 .price-info .price-box .old-price{
@@ -363,7 +359,6 @@
     right: 200px;
     top: 40px;
     text-transform: uppercase;
-
 }
 
 
@@ -425,13 +420,6 @@
 .footer .footer-menu  ul a{
 
     color: #889caa;
-
-}
-.footer .footer-menu  ul a:hover{
-    color: #e4be4b;
-=======
-   color: #889caa;
->>>>>>> 1988b1f0025cdfb57b1c83bbf351eb1f935990c3
 
 }
 .footer .footer-menu  ul a:hover{
@@ -546,11 +534,11 @@
     background: #e4be4b;
     color: #ffffff;
     position: relative;
-    top: 11px;
-    left: 156px;
+    top: 16px;
+    left: 155px;
     height: 30px;
     text-transform: uppercase;
-    padding: 0px 30px 10px 30px;
+    padding: 5px 30px 10px 30px;
     border: none;
 }
 
@@ -793,5 +781,7 @@
     float: right;
     position: relative;
     right: 220px;
-
+}
+.my-span-class{
+    color: #e4be4b;
 }

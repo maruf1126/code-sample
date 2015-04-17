@@ -53,7 +53,7 @@
         <!-- Header msg !-->
         <span class="call-us-image">
 
-         <img src="<?php echo $this->getSkinUrl('images/clip-art-icon-cdn-maple-leaf.gif'); ?>" alt="image alt text" />
+         <img src="<?php echo $this->getSkinUrl('images/clip-art-icon-cdn-maple-leaf.gif'); ?>" alt="image alt text"/>
          </span>
 
         <span class="call-us-today">
@@ -105,25 +105,14 @@
                 <?php echo $this->getChildHtml('topMenu') ?>
 
             </div>
-
-
-                <span class="searuch-button-cart">
-                <a href="#">
-                    <?php echo $this->__('cart') ?>
-                </a>
+                <span class="menu-button-cart">
+                    <button class="searuch-button-cart" type="button"><?php echo $this->__('cart'); ?></button>
                 </span>
-
-                <span class="searuch-button-menu">
-                <a href="#">
-                    <?php echo $this->__('search') ?>
-                </a>
-                </span>
-
+                 <span class="menu-button-search">
+                    <button class="searuch-button-menu" type="button"><?php echo $this->__('search'); ?></button>
+                 </span>
         </div>
-
-
     </div>
 </header>
-
-
 <?php echo $this->getChildHtml('topContainer'); ?>
+
