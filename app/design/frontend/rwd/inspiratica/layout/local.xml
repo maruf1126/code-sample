@@ -47,6 +47,12 @@
                 </block>
 
             </reference>
+
+            <reference name="head">
+                <block type="core/text" name="nil0bhy">
+                    <action method="setText"><text><![CDATA[<script src="//use.typekit.net/nil0bhy.js"></script>]]></text></action>
+                </block>
+            </reference>
         </default>
     </layout>
 
