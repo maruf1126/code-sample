@@ -372,7 +372,8 @@
     top: 30px;
     color:#000000;
     font-size: 15px;
-    font-weight:bold;
+    font-family: 'brandon-grotesque';
+    font-weight: 700;
 }
 .short-description .std{
     padding: 10px 0px 10px;
@@ -831,11 +832,14 @@
     color: #ffffff;
     padding: 7px;
     font-size: 12px;
-    width: 100px;
+    width: 130px;
     float: left;
 }
+.availability.out-of-stock span {
+    color: #ffffff;
+}
 .extra-info .availability.out-of-stock:before {
-    content: '\e81d';
+    content: '\e81c';
     width: 20px;
     font-family: 'fontello';
     padding-right: 3px;

@@ -41,7 +41,7 @@ $_product = $this->getProduct(); ?>
 
     <?php else: ?>
         <p class="availability out-of-stock">
-            <span class="label"><?php echo $this->helper('catalog')->__('Out of stock') ?></span>
+            <span><?php echo $this->helper('catalog')->__('Out of stock') ?></span>
         </p>
 
             <span class="in-stock-value1"><?php echo $this->helper('catalog')->__('Limited lifetime') ?></span>
