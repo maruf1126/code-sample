@@ -1,10 +1,25 @@
 @font-face {
     font-family: 'Lato';
     font-style: normal;
-    font-weight: 100;
-    src: local('Lato Bold'), local('Lato-Bold'), url(type/lato.woff2) format('woff2');
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(type/lato-bold.woff2) format('woff2');
     unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(type/lato-normal.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(type/lato-bold-italic.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
 @font-face {
     font-family: 'Merriweather';
     font-style: normal;
@@ -170,14 +185,16 @@
     padding: 0px;
 }
 .nav-primary li.level0 > a {
-    font-family: 'Merriweather';
+    font-family: 'Lato';
+    font-weight: 400;
 }
 .nav-primary li.level1 a {
     border-bottom: none;
     padding-left: 25px;
     color: #ffffff;
     text-transform: uppercase;
-    font-family: 'Merriweather';
+    font-family: 'Lato';
+    font-weight: 400;
 }
 
 
@@ -248,8 +265,9 @@
     position: relative;
     top: 30px;
     font-weight: bold;
-    font-family: "Myriad Pro";
-    font-size: 22px;
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .call-us-today-italic{
@@ -257,8 +275,8 @@
     position: relative;
     position: relative;
     top: 35px;
-    font-family: "Myriad Pro";
-    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: 700;
 }
 
 .call-us-image img{
@@ -270,7 +288,10 @@
     right: 20px;
 
 }
-
+.product-view .add-to-cart-buttons .button {
+    font-family: "brandon-grotesque";
+    font-weight: 700;
+}
 .page-header-container .logo{
     padding-top: 0px;
 }
@@ -282,8 +303,8 @@
     padding: 3px;
     color: #145c8f;
     padding: 5px;
-
-
+    font-family: 'Lato';
+    font-weight: 700;
 }
 
 .account-mywishlist:before {
@@ -298,7 +319,8 @@
     padding: 3px;
     color: #145c8f;
     padding: 5px;
-
+    font-family: 'Lato';
+    font-weight: 700;
 }
 .account-myaccount:before {
     content: '\e803';
@@ -312,8 +334,8 @@
     padding: 3px;
     color: #145c8f;
     padding: 5px 15px 5px 5px;
-
-
+    font-family: 'Lato';
+    font-weight: 700;
 }
 .account-login:before {
     content: '\e804';
@@ -477,6 +499,8 @@
 
 .footer .footer-menu .block-title strong{
     color: #ffffff;
+    font-family: 'brandon-grotesque';
+    font-weight: 700;
 }
 .footer .links, .footer .block-subscribe {
     position: relative;
@@ -596,6 +620,8 @@
     text-transform: uppercase;
     padding: 5px 30px 10px 30px;
     border: none;
+    font-family: 'brandon-grotesque';
+    font-weight: 700;
 }
 
 .sign-up-footer-now:after {
