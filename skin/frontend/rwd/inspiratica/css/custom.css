@@ -446,6 +446,29 @@ display: none;
     color: #e4be4b;
     font-size: 45px;
 }
+
+.nav-primary >li.level0:nth-child(even):after{
+    content: '\e80b';
+    width: 10px;
+    position: relative;
+    font-size: 12px;
+    font-style: normal;
+    font-family: 'fontello';
+    font-weight: normal;
+    color: #ffffff;
+}
+.nav-primary >li.level0:nth-child(1):before{
+    content: '\e821';
+    width: 10px;
+    position: relative;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'fontello';
+    color: #ffffff;
+    padding-left: 15px;
+}
+
 .price-info .price-box .regular-price .price {
     color: #e4be4b;
     font-size: 25px;
