@@ -488,6 +488,7 @@ display: none;
     width: 20px;
     font-family: 'fontello';
     padding-right: 15px;
+    font-weight: 100;
 }
 
 .product-view .add-to-cart .add-to-cart-buttons .button:after{
@@ -969,4 +970,12 @@ display: none;
 
 .page {
     width: 1170px;
+}
+.wrapper {
+    max-width: 1170px;
+}
+.header-language-background, .header-language-background a {
+    width: 1110px;
+    position: relative;
+    left: 40px;
 }
