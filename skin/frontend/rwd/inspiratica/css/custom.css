@@ -391,12 +391,16 @@
 
 }
 
-.product-info-review:before {
-    content: '\e809';
+.product-info-review-star:before {
+    content: '\e823';
     width: 20px;
     font-family: 'fontello';
-    padding-left: 10px;
-    padding-right: 3px;
+}
+
+.product-info-review-star2:before {
+     content: '\e824';
+     width: 20px;
+     font-family: 'fontello';
 }
 
 .product-info-add-review{
@@ -411,8 +415,11 @@
     font-family: 'fontello';
     padding-left: 5px;
     padding-right: 3px;
+    color: #c6ccd0;
 }
-
+.product-view .ratings .rating-links {
+display: none;
+}
 .product-info-sku{
     padding: 3px;
     color: #145c8f;
@@ -760,7 +767,7 @@
     font-style: italic;
 }
 .product-view .suitable-for-block .suitable-for-class-2:before{
-    content: '\e81d';
+    content: '\e827';
     width: 20px;
     font-family: 'fontello';
     padding-right: 3px;
