@@ -444,7 +444,7 @@ display: none;
 
 .price-info .price-box .special-price .price{
     color: #e4be4b;
-    font-size: 50px;
+    font-size: 45px;
 }
 .price-info .price-box .regular-price .price {
     color: #e4be4b;
@@ -585,6 +585,20 @@ display: none;
     color: #889caa;
 }
 
+.strategic-partner-pinterest:after {
+    content: '\e815';
+    width: 20px;
+    position: relative;
+    float: left;
+    right: 140px;
+    top: 90px;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'fontello';
+    padding-left: 10px;
+    padding-right: 3px;
+    color: #889caa;
+}
 .breadcrumbs{
     margin: 0px 15px 0 12px;
 }
@@ -654,7 +668,7 @@ display: none;
     position: relative;
     float: right;
     bottom: 200px;
-    right: 150px;
+    right: 115px;
     color: #889caa;
     font-size: 12px;
     font-family: 'Merriweather';
@@ -671,8 +685,8 @@ display: none;
 .store-phone{
     position: relative;
     float: right;
+    left: 7px;
     bottom: 160px;
-    right: 30px;
     color: #889caa;
     font-size: 12px;
     font-family: 'Merriweather';
@@ -691,7 +705,7 @@ display: none;
     position: relative;
     float: right;
     bottom: 140px;
-    right: -90px;
+    left: 125px;
     color: #889caa;
     font-size: 12px;
     font-family: 'Merriweather';
@@ -774,11 +788,13 @@ display: none;
     padding-left: -3px;
     color: #c6ccd0;
 }
-
+.product-view .add-to-links{
+    display: none;
+}
 .product-view .privacy-guaranteed{
     float: right;
     position: relative;
-    left: 200px;
+    left: 305px;
     top: -10px;
 }
 .product-view .privacy-guaranteed .privacy-guaranteed-icon-1{
@@ -817,6 +833,33 @@ display: none;
 }
 .product-view .privacy-guaranteed .privacy-guaranteed-icon-4:before{
     content: '\e817';
+    width: 25px;
+    font-family: 'fontello';
+    font-size: 25px;
+    padding-right: 3px;
+    padding-left: -3px;
+
+}
+.product-view .privacy-guaranteed .privacy-guaranteed-icon-5{
+    float: right;
+    position: relative;
+    left: 30px;
+    border: 1px solid #dedfe1;
+    padding: 0px 5px;
+    text-transform: uppercase;
+}
+
+.product-view .privacy-guaranteed .privacy-guaranteed-icon-5:before{
+    content: '\e826';
+    width: 25px;
+    font-family: 'fontello';
+    font-size: 25px;
+    padding-right: 3px;
+    padding-left: -3px;
+
+}
+.product-view .privacy-guaranteed .privacy-guaranteed-icon-5:after{
+    content: '\e807';
     width: 25px;
     font-family: 'fontello';
     font-size: 25px;
