@@ -318,14 +318,18 @@
 
 .account-myaccount{
     padding: 3px;
-    color: #145c8f;
+    color: #5d6e7a;
     padding: 5px;
     font-family: 'Lato';
     font-weight: 700;
 }
+.account-myaccount a{
+    color: #5d6e7a;
+}
 .account-myaccount:before {
     content: '\e803';
     width: 20px;
+    color: #c6ccd0;
     font-family: 'fontello';
     padding-left: 5px;
     padding-right: 3px;
@@ -333,14 +337,18 @@
 
 .account-login{
     padding: 3px;
-    color: #145c8f;
+    color: #5d6e7a;
     padding: 5px 15px 5px 5px;
     font-family: 'Lato';
     font-weight: 700;
 }
+.account-login a{
+    color: #5d6e7a;
+}
 .account-login:before {
     content: '\e804';
     width: 20px;
+    color: #c6ccd0;
     font-family: 'fontello';
     padding-left: 10px;
     padding-right: 3px;
@@ -381,6 +389,7 @@
     position: relative;
     top: 25px;
     font-family: 'Merriweather';
+    color: #5d6e7a;
 }
 
 .product-info-review{
@@ -522,6 +531,10 @@ display: none;
     position: relative;
 
 }
+.footer .footer-menu .links:nth-child(1)>ul li:nth-child(1) a{
+    color: #e4be4b;
+}
+
 .footer .footer-menu  ul a{
     font-family: 'Merriweather';
     color: #889caa;
@@ -580,7 +593,7 @@ display: none;
     font-family: 'fontello';
     padding-left: 10px;
     padding-right: 3px;
-    color: #889caa;
+    color: #e4be4b;
 }
 
 .strategic-partner-twitter:after {
@@ -766,7 +779,7 @@ display: none;
     padding-left: -3px;
     color: #889caa;
     position: relative;
-    right: 300px;
+    right: 150px;
 }
 
 
@@ -780,7 +793,7 @@ display: none;
     font-style: normal;
     float: right;
     position: relative;
-    right: 260px;
+    right: 110px;
 }
 
 .footer .footer-menu .copyright-visa:after {
@@ -793,7 +806,7 @@ display: none;
     font-style: normal;
     float: right;
     position: relative;
-    right: 220px;
+    right: 70px;
 }
 .product-view .suitable-for-block{
     float: right;
@@ -837,7 +850,7 @@ display: none;
 }
 .product-collateral .toggle-tabs li span{
     font-family: 'brandon-grotesque';
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .product-view .privacy-guaranteed .privacy-guaranteed-icon-2:before{
@@ -936,32 +949,6 @@ display: none;
     left: -70px;
     width: 172px;
     height: 32px;
-}
-
-.footer .footer-menu .copyright-master:after {
-    content: '\e817';
-    width: 20px;
-    font-family: 'fontello';
-    padding-right: 3px;
-    padding-left: -3px;
-    color: #889caa;
-    font-style: normal;
-    float: right;
-    position: relative;
-    right: 260px;
-}
-
-.footer .footer-menu .copyright-visa:after {
-    content: '\e816';
-    width: 20px;
-    font-family: 'fontello';
-    padding-right: 3px;
-    padding-left: -3px;
-    color: #889caa;
-    font-style: normal;
-    float: right;
-    position: relative;
-    right: 220px;
 }
 .my-span-class{
     color: #e4be4b;
