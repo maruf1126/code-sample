@@ -431,8 +431,8 @@ display: none;
 .price-info .price-box .old-price{
     float: right;
     position: relative;
-    right: 200px;
-    top: 40px;
+    right: 230px;
+    top: -20px;
     text-transform: uppercase;
 }
 
@@ -440,7 +440,10 @@ display: none;
 .price-info .price-box .old-price .price {
     color: #5d6e7a;
 }
-
+.price-box .special-price {
+    position: relative;
+    top: -55px;
+}
 
 .price-info .price-box .special-price .price{
     color: #e4be4b;
@@ -795,7 +798,7 @@ display: none;
 .product-view .suitable-for-block{
     float: right;
     position: relative;
-    right: 100px;
+    right: 110px;
     top: -60px;
     border-top: 1px solid #c6ccd0;
     border-bottom: 1px solid #c6ccd0;
@@ -818,7 +821,7 @@ display: none;
 .product-view .privacy-guaranteed{
     float: right;
     position: relative;
-    left: 305px;
+    left: 310px;
     top: -10px;
 }
 .product-view .privacy-guaranteed .privacy-guaranteed-icon-1{
@@ -929,7 +932,10 @@ display: none;
 .lecruset {
     float: right;
     position: relative;
-    top:50px;
+    top: -15px;
+    left: -70px;
+    width: 172px;
+    height: 32px;
 }
 
 .footer .footer-menu .copyright-master:after {
